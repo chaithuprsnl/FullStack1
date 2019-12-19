@@ -1,0 +1,1 @@
+insert into product values(1,'Mobile','mob-100','12/12/2019',500,'Samsung J Series',4.5,'');

@@ -1,0 +1,19 @@
+type Product {
+	productId: ID!
+	productName:String!
+	productCode:String!
+	releaseDate:String!
+	price:Int!
+	description:String!
+	starRating:Float!
+	imageUrl:String!
+}
+
+type Query{
+	findAllProducts : [Product]!
+	findOneProduct(productId:ID):Product
+}
+
+type Mutation{
+	createProduct(productName:String!, productName:String!, releaseDate:String!, price:Int!, description:String!, starRating:Float!, imageUrl:String!):Product
+}
